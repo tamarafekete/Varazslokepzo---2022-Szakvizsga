@@ -1,0 +1,814 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+background-image: url("images/pattern.jpg");
+padding: 0;
+margin: 0;
+}
+
+a:hover {
+color: LightSteelBlue;
+}
+#wrap {
+padding: 5px;
+background: #252525;
+width: 1004px;
+margin: auto;
+}
+#header {
+background-image: url("images/back.jpg");
+width: max;
+height: 75px;
+}
+#header h1 {
+text-align: center;
+font-size: 50px;
+padding: 10px 33px 0 0;
+font-family: Book Antiqua;
+font-style: italic;
+}
+#oldalmenu ul li{
+border: 7px solid #252525;
+border-radius: 10px;
+}
+#oldalmenu {
+float: left;
+width: 250px;
+padding-top: 30px;
+height: 100%;
+}
+#oldalmenu p{
+border: 5px solid #252525;
+border-radius: 10px;
+background-image: url('images/parchment.jpg');
+font-family: Garamond;
+padding: 10px;
+}
+#oldalmenu li{
+width: 237px;;
+}
+#oldalmenu p span{
+padding-left: 10px;
+}
+#tartalom {
+float: right;
+width: 734px;
+padding: 10px;
+margin-top: 22px;
+background:#252525; 
+height: 100%;
+}
+#tartalom h1{
+color:#D3D3D3;
+border-top: 2px solid #696969;
+}
+#KK, #FO, #LAK, #LAF, h1{
+text-align: center;
+margin-bottom: 20px;	
+}
+#tartalom h2{
+color:#D3D3D3;
+}
+#tartalom p{
+color: #696969;
+font-size: 16px;
+text-align: right;
+line-height: 1.2;
+}
+#tartalom pre{
+font-family: 'Times New Roman', serif;
+text-align: center;
+}
+#tartalom img{
+padding: 5 px;
+margin-left: 10px;
+}
+#tartalom td img{
+margin-left: 0;
+margin-right: 3px;
+}
+#tartalom iframe{
+margin-left: 87px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+#tartalom table{
+width:100%;
+border: 3px black solid;
+border-collapse: collapse;
+}
+#tartalom th, td{
+width:50%;
+border: 3px black solid;
+padding: 10px;
+}
+#tartalom ul{
+list-style-type: none;
+}
+#tartalom td h3 {
+margin-top: 10px;
+}
+#tartalom ol{
+
+
+}
+#tartalom ol li{
+color: #A4A4A4;
+}
+#tartalom a{
+padding: 0;
+color: #748494;
+}
+
+
+
+
+#kezd{
+width:100px;
+}
+
+#fejl{
+width: 130px;
+}
+
+#kuld{
+width: 110px;
+}
+
+#profil{
+width: 100px;
+}
+#mgame{
+	background-image: url("images/mgame_back.jpg");
+	background-size: cover;
+	position: relative;
+	opacity: 1;
+}
+
+#mgame img{
+	padding: 15px;
+	padding-left: 25px;
+}
+
+#save input[type=submit]{
+	width:auto;
+	font-size:18px;
+	padding: 5px;
+}
+
+#success{
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: 10;
+margin-left: -175px;
+margin-top: -125px;
+display: none;
+}
+#success h2{
+text-align: center;
+color: #222233;
+margin-bottom: 10px;
+}
+@media screen and (max-width: 1004px) {
+#tartalom{
+width:95%;
+float: right
+}
+#oldalmenu {
+width: 0;
+}
+
+#
+#wrap{
+width:100%;
+}
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {
+float: none;
+}
+}
+@media screen and (max-width: 670px){
+#tartalom iframe{
+margin-left:0;
+}
+}
+#footer a{
+color: #808080;
+text-decoration: none;
+}
+#footer a:hover {
+color: LightSteelBlue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #252525;
+border-left: 0;
+border-bottom: 0;
+background-color: #36292e;
+}
+
+li {
+  float: left;
+  border-left: 2px solid #252525;
+  text-align: center;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #A9A9A9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li:hover:not(.invis){
+color: LightSteelBlue;
+background-color: #513740;
+}
+
+ul.topnav li.right, ul.topnav li.dropdownright {float: right;}
+ul.topnav li.invis a{
+	opacity: 0;
+}
+
+li.dropdown , li.dropdownright{
+  display: inline-block;
+}
+
+.dropcont {
+  display: none;
+  position: absolute;
+  background-color: #513740;
+  width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcont a {
+  color:#A9A9A9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+
+.dropcont a:hover {
+background-color: #36292e;
+color: LightSteelBlue;
+}
+
+.dropdown:hover .dropcont, .dropdownright:hover .dropcont {
+  display: block;
+}
+
+legend{
+color:	#EEEEEE;
+padding: 10px;
+font-size: 20px;
+}
+fieldset{
+border: 3px solid #EEEEEE;
+border-radius: 10px;
+background-color: rgba(96, 101, 105, 0.5);
+}
+
+li.dropdownright .dropcont {
+  display: none;
+  position: absolute;
+  background-color: #513740;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: pointer;
+  width: 100px;
+}
+
+.check{
+	display: block;
+	position: relative;
+	padding-left: 15px;
+	margin-bottom: -10px;
+	font-size: 17px;
+	color: #c0c0c0;
+}
+.check input {
+  position: relative;
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+
+
+
+input[type=submit], input[type=reset]{
+	width: 90px;
+	height: 40px;
+	font-size: 17px;
+	cursor: pointer;
+	background-color: rgba(96, 101, 105, 1);
+	color: #c0c0c0;
+	border:none;
+	border-radius: 5px;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color: #888d92;
+	color: #eeeeee;
+}
+
+.reg{
+background-color: rgba(96, 101, 105, 0.5);
+border: 5px groove #333333;
+border-radius: 10px;
+height: auto;
+}
+.reg h2{
+padding-left: 5px;
+}
+.reg ol{
+padding: 10px;
+margin-left: 10px;
+text-align: justify;
+display: block;
+}
+.reg ol li{
+padding-top: 9px;
+font-size:18px;
+border-left: none;
+display: block;
+}
+.reg form{
+padding: 10px;
+font-size: 20px;
+color:#c0c0c0;
+}
+.reg form input{
+position: relative;
+height: 22px;
+width:300px;
+cursor: pointer;
+border-radius: 10px;
+}
+
+.reg form input[type=text], .reg form input[type=password], .reg textarea{
+background-color: #DDDDDD;
+}
+
+.reg textarea{
+height:200px;
+width: 500px;
+cursor: pointer;
+border-radius: 10px;
+position: relative;
+padding: 5px;
+}
+
+.profil{
+background-color: rgba(96, 101, 105, 0.5);
+min-height: 300px;
+border: 5px groove #333333;
+border-radius: 10px; 
+font-family: 'Garamond';
+}
+.profil img{
+	float: left;
+	width: 200px;
+	height: 280px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.profil h1{
+	text-align: left;
+	font-size: 30px;
+}
+.profil h2{
+	text-align: left;
+	font-family: 28px;
+}
+
+.profil img.housecrest{
+float: right;
+height: auto;
+width: 70px;
+padding-top: 0px;
+}
+
+
+.slyth img{
+	width: 350px;
+	float:left;
+}
+.profil h3{
+font-size: 26px;
+padding-bottom: 10px;
+}
+.profil h4{
+font-size: 20px;
+padding-bottom: 5px;
+}
+#tartalom .profil p.desc{
+font-size: 15px;
+padding: 40px 10px 10px 10px;
+text-align: justify;
+color: #050505;
+}
+.slyth{
+	border: 8px ridge #003010;
+	border-radius: 10px;
+	border-color: #003010 #002005;
+	background-color: rgba(96, 101, 105, 0.5);
+	background-image: url("images/slyth-back.png");
+	height: 515px;
+	font-family: Papyrus, Fantasy;
+	float:right;
+}
+ 
+#tartalom .slyth h1{
+	color: #003000;
+
+}
+#tartalom .slyth h2{
+	color: #002000;
+text-align: center;
+}
+#tartalom .slyth p{
+	color: #001000;
+	padding: 10px;
+}
+.gryff{
+	border: 8px ridge #660000;
+	border-radius: 10px;
+	border-color: #660000 #330000;
+	background-color: rgba(96, 101, 105, 0.5);
+	background-image: url("images/slyth-back.png");
+	height: 515px;
+	font-family: Papyrus, Fantasy;
+	float:right;
+}
+.gryff img{
+	width: 350px;
+	float:left;
+}
+#tartalom .gryff h1{
+	color: #660000;
+
+}
+#tartalom .gryff h2{
+	color: #550000;
+	text-align: center;
+}
+#tartalom .gryff p{
+	color: #330000;
+	padding: 10px;
+}
+#tartalom .gryff pre{
+	color: #300000;
+}
+.raven{
+	border: 8px ridge #000066;
+	border-radius: 10px;
+	border-color: #000066 #000033;
+	background-color: rgba(96, 101, 105, 0.5);
+	background-image: url("images/slyth-back.png");
+	height: 515px;
+	font-family: Papyrus, Fantasy;
+	float:right;
+}
+.raven img{
+	width: 350px;
+	float:left;
+}
+#tartalom .raven h1{
+	color: #000066;
+
+}
+#tartalom .raven h2{
+	color: #000055;
+	text-align: center;
+}
+#tartalom .raven p{
+	color: #000033;
+	padding: 10px;
+}
+#tartalom .raven pre{
+	color: #000030;
+}
+.huff{
+	border: 8px ridge #b38f00;
+	border-radius: 10px;
+	border-color: #b38f00 #665200;
+	background-color: rgba(96, 101, 105, 0.5);
+	background-image: url("images/slyth-back.png");
+	height: 515px;
+	font-family: Papyrus, Fantasy;
+	float:right;
+}
+.huff img{
+	width: 350px;
+	float:left;
+}
+#tartalom .huff h1{
+	color: #665200;
+	
+}
+#tartalom .huff h2{
+	color: #554100;
+	text-align: center;
+}
+#tartalom .huff p{
+	color: #4d3d00;
+	padding: 10px;
+}
+#tartalom .huff pre{
+	color: #332900;
+}
+.startmgame{
+background-color: #EEEEEE;
+width: 350px;
+height: 250px;	
+margin-left:auto;
+margin-right: auto;
+border: 4px solid #254535;
+border-radius: 10px;
+box-shadow: 5px 10px;
+}
+.startmgame select{
+display: block;
+text-align: center;
+width:150px;
+height: 40px;
+margin: auto;
+border: 2px solid #CCCCCC;
+border-radius: 5px;
+background-color: #DDDDDD;
+font-size: 23px;
+}
+.startmgame h3{
+text-align: center;
+color: #557770;
+}
+#tartalom .startmgame h1{
+border-top: none;
+color: #222233;
+}
+.startmgame input[type=submit]{
+display:block;
+margin:auto;
+width:150px;
+font-size: 23px;
+margin-bottom: 10px;
+}
+.pgame{
+background-color:rgba(96, 101, 105, 0.5);
+border: 5px groove #333333;
+border-radius: 10px; 
+width: 230px;
+height: 360px;
+float: left;
+position:relative;
+}
+.pgame img{
+width:210px;
+height:210px;
+margin: 10px;
+image-rendering: pixelated;
+}
+.pgame h2{
+padding-left:10px;
+padding-right: 10px;
+}
+#tartalom .pgame p{
+font-family: 'Book Antiqua', serif;
+color: #E0FFFF;
+text-align: justify;
+padding-left: 5px;
+padding-right: 5px;
+}
+.pgame input[type=submit]{
+width:100%;
+background-color: rgba(116, 121, 125, 1);
+color:#dddddd;
+position: absolute;
+bottom: 0;
+}
+.pgame input[type=submit]:hover{
+background-color:rgba(136, 141, 145, 1);
+color: #f4f4f4;
+}
+.pixels{
+float: left;
+}
+.pixels div{
+height: 13px;
+background-color:#FFFFFF;
+font-size:10px;
+width:13px; 
+padding: 2px;
+margin: 0;
+margin-bottom: 0;
+border: 1px solid black;
+text-align: center;
+float: left;
+cursor: pointer;
+display: inline-block;
+}
+.colors {
+float:right;
+background-color:rgba(116, 121, 125, 1);
+display: block;
+color: #A9A9A9;
+cursor: pointer;
+}
+.pixelgame{
+background-color:rgba(96, 101, 105, 0.5);
+border: 5px groove #333333;
+border-radius: 10px; 
+height: 700px;
+padding: 10px;
+position: relative;
+}
+.queststart_finished{
+background-color: rgba(70, 95, 120, 0.5);
+border: 5px groove #333333;
+border-radius: 10px; 
+font-family: "Garamond";
+}
+.queststart{
+background-color:rgba(120, 80, 95, 0.5);
+border: 5px groove #333333;
+border-radius: 10px; 
+font-family: "Garamond";
+}
+.queststart legend, .queststart_finished legend{
+padding: 10px;
+text-align: center;
+font-size: 27px;
+color: #dddddd;
+
+}
+.queststart fieldset, .queststart_finished fieldset{
+margin: 10px;
+padding: 10px;
+border: 3px solid #aaaaaa;
+border-bottom: none;
+border-left: none;
+border-right: none;
+background-color:rgba(120, 80, 95, 0.3); 
+}
+.queststart h3, .queststart_finished h3{
+font-size: 20px;
+padding: 5px;
+}
+#tartalom .queststart p, #tartalom .queststart_finished p{
+text-align: left;
+padding-left:15px;
+color: #200510;
+padding-bottom: 5px;
+}
+.quest{
+background-color:rgba(96, 101, 105, 0.5);
+border: 5px groove #333333;
+border-radius: 10px;
+position: relative; 
+display:none;
+}
+.quest img{
+width: 675px;
+height: 385px;
+padding:15px;
+}
+#tartalom .quest p{
+height: 100px;
+text-align: justify;
+padding: 15px;
+font-family: 'Book Antiqua', serif;
+color: #E0FFFF;
+padding-bottom: 5px;
+background-color: rgba(116, 121, 125, 1);
+border-top:3px solid #aaaaaa;
+border-radius: 5px;
+}
+.quest button{
+position: absolute;
+left: 15px;
+bottom: 5px;
+width:95.5%;
+background-color: rgba(136, 141, 145, 1);
+color:#dddddd;
+height: 40px;
+font-size: 17px;
+cursor: pointer;
+border:none;
+border-radius: 5px;
+}
+.quest button:hover{
+background-color:rgba(156, 161, 165, 1);
+color: #f4f4f4;
+}
+.quest input[type=submit]{
+position: absolute;
+left: 15px;
+bottom: 5px;
+width:95.5%;
+background-color: rgba(136, 141, 145, 1);
+color:#dddddd;
+height: 40px;
+font-size: 17px;
+cursor: pointer;
+border:none;
+border-radius: 5px;
+}
+.quest input[type=submit]:hover{
+background-color:rgba(156, 161, 165, 1);
+color: #f4f4f4;
+}
+#story1{
+display:block;
+}
+.options{
+border: 5px groove #333333;
+border-radius: 10px;
+height: 400px;
+position: relative;
+display:none;
+cursor: pointer;
+}
+#tartalom .options h2{
+
+text-align:center;
+font-size: 40px;
+font-family: "Garamond";
+}
+#tartalom .options h3{
+text-align: center;
+font-family: "Garamond";
+font-size: 25px; 
+}
+#tartalom .options p{
+position: absolute;
+bottom: 15px;
+left: 335px;
+font-size: 25px;
+color: white;
+}
+#intro1{
+background-image: url("images/hogwarts.jpg");
+background-size: 800px;
+display: block;
+}
+#intro1 h2{
+color: rgb(26, 61, 35);
+padding-top: 80px;
+}
+#intro1 h3{
+color: rgb(26, 31, 35);
+padding-top: 80px;
+}
+#intro2{
+background-image: url("images/class2.jpg");
+background-size: 1030px;
+}
+#intro2 h2{
+color: rgb(91, 00, 45);
+padding-top: 45px;
+}
+#intro2 h3{
+color: rgb(120, 30, 60);
+padding-top: 45px;
+}
+#intro3{
+background-image: url('images/greathall.jpg');
+background-size: 1000px;
+}
+#intro3 h2{
+color: rgb(255, 250, 250);
+padding-top: 50px;
+}
+#intro3 h3{
+color: rgb(190, 200, 210);
+padding-top: 100px;
+}
+svg{
+width: 500px;
+height: 50px;
+background-color:rgba(96, 101, 105, 0.5);
+border-radius: 10px;
+}
+svg line{
+stroke-width: 30px;
+stroke: black;
+stroke-linecap: round;
+}
+#sub{
+display:none;
+}
